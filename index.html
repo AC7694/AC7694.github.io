@@ -3,26 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <title>Joni Korkiakoski</title>
+<style>
+	body {
+	text-align:center;
+	background-color: #ffcc66;
+	font-family:helvetica;
+	}
+	
+	h1 {
+	text-align:center;
+	color:#800000;
+	}
+	
+	h2 {
+	text-align:center;
+	color:#0066ff;
+	}
+	
+	#indexTekstit {
+	text-align:left;
+	}
+	
+	a:link {
+	color:#0066ff;
+	}
+	a:visited {
+	color:#ff00ff;
+	}
+	a:hover {
+	color:#ffff00;
+	}
+	a:active {
+	color:#ff0000;
+	}
+	
+</style>
 </head>
 <body>
-	
 	<h1>Joni Korkiakoski</h1>
-	<p>Olen Joni Korkiakoski. Olen rauhallinen tietotekniikkaan suuntautuva mies. Kiinnostuksen kohteenani ovat tietokoneet, videopelit, kaikenlaiset pulma tehtävät/pelit ja tieteelliset asiat. Tavoitteenani on valmistua <a href="https://www.jamk.fi/fi">JAMK:sta</a>.</p>
+	<p>Etusivu | <a href="harrastukset.html" target="_blank">Harrastukset</a> | <a href="portfolio.html" target="_blank">Portfolio</a></p>
+	<img src="images/profiilikuva.jpg" alt="Profiilikuva miehestä jolla on silmälasit ja parta">
+	<!-- Määritin tyyli elementtiin #indexTekstit id selectorin jossa tekstit on määritetty vasempaan laitaan. -->
+	<p id="indexTekstit">Olen Joni Korkiakoski. Kiinnostuksen kohteenani ovat <strong>tietokoneet</strong>, <strong>videopelit</strong>, kaikenlaiset <strong>pulmatehtävät/pelit</strong> ja <strong>tieteelliset asiat</strong>. Tavoitteenani on valmistua <a href="https://www.jamk.fi/fi">JAMK:sta</a>.</p>
 	<h2>Harrastukset</h2>
-	<p>Harrastuksiini kuuluvat tietokoneet, videopelit ja kaikenlaiset pulma tehtävät/pelit.</p>
-	<ul>
+	<p id="indexTekstit">Harrastuksiini kuuluvat <strong>tietokoneet</strong>, <strong>videopelit</strong> ja kaikenlaiset <strong>pulmatehtävät/pelit</strong>.</p>
+	<ul id="indexTekstit">
 		<li>Tietokoneet</li>
 		<li>Videopelit</li>
 		<li>Sudokut</li>
 		<li>Picross</li>
 	</ul>
 	<h2>Osaamisia</h2>
-	<ul>
+	<ul id="indexTekstit">
 		<li>Englannin kielen taitoni on hyvä.</li>
 		<li>Looginen päättelykyky.</li>
 		<li>Perus IT-osaamista.</li>
 	</ul>
-	<h2>Yhteystiedot</h2>
-	<p><i>Email: AC7694@student.jamk.fi</i></p>
+	<h2>Yhteystiedot:</h2>
+	<address>Email: AC7694@student.jamk.fi</address>
 </body>
 </html> 
