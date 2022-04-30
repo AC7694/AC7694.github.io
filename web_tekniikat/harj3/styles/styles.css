@@ -1,0 +1,85 @@
+body {
+	text-align:center;
+	background-color: #ffcc66;
+	font-family:Helvetica, Arial, sans-serif;
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+.banner{
+	text-align:center;
+	height:100px;
+	margin-bottom:auto;
+	margin-top:auto;
+	margin-left:auto;
+	margin-right:auto;
+	color:#800000;
+	padding-top:40px;
+	/*background-color:#f98300;*/
+	background-color:#e7a256;
+	
+}	
+
+.nav {
+	height:30px;
+	text-align:center;
+	font-size:20px;
+	color:#800000;
+	background-color:#e7a256;
+	margin-top:0;
+	margin-left:0;
+	padding-top:5px;
+}
+
+p {
+	text-align:left;
+	margin-left:1.8em;
+	}
+
+#työnAlla {
+	text-align:center;
+	font-size:150%;
+	background-color:#e7a256;
+	margin-bottom:0;
+	margin-top:0;
+	margin-left:0;
+	padding-bottom:10px;
+	
+	}
+	
+h2 {
+	text-align:left;
+	color:#0066ff;
+	margin-left:1.2em;
+	margin-right:1.2em;
+	padding-left:25px;
+	background-color:#e7a256;
+	
+	}
+	
+.kontaktiTiedot {
+	text-align:center;
+	}
+	
+.listOnLeft {
+	text-align:left;
+	}
+	
+a:link {
+	color:#0066ff;
+	}
+a:visited {
+	color:#ff00ff;
+	}
+a:hover {
+	color:#ffff00;
+	}
+a:active {
+	color:#ff0000;
+	}
+	
+ul.list {
+	list-style-type: square;
+}
