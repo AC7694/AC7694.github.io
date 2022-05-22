@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+body {
+	margin:0;
+	font-size:100%;
+	font-family:Poppins, Verdana, sans-serif;
+}
+
+article.page {
+	max-width:90%;
+	margin:0 auto;
+	background-color:#d8ccaf;
+}
+
+header {
+	padding:0.1em;
+	background-color:#575757;
+	color:#f0ebeb;
+	text-align:center;
+	font-family:Ubuntu, Verdana, sans-serif;
+	font-size:150%;
+	letter-spacing:0.1875em;
+}
+
+nav, footer {
+	height:1.875em;
+	background-color:#e49a2f;
+	color:#f7f5ee;
+	text-align:center;
+}
+
+section {
+	background-color:#d8ccaf;
+	width:100%;
+}
+
+section.content_left, section.content_right {
+	width:40%;
+	background-color:#f7f5ee;
+	border:0.0625em solid #ac9675;
+	margin:2em;
+	border-radius:1em;
+	padding:0.625em 0.9375em;
+}
+
+section.content_left {
+	margin-left:3em;
+	float:left;
+}
+
+section.content_right {
+	margin-right:3em;
+	float:right;
+}
+
+.clear {
+	clear:both;
+}
+
+img {
+	width:100%;
+	height:auto;
+	padding:0.1em;
+}
+
+.image {
+	display:block;
+	margin:0 auto;
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	text-align:center;
+}
+
+li {
+	display:inline;
+}
+
+li a {
+	display:inline-block;
+	color:#f7f5ee;
+	text-align:center;
+	padding:0.15625em 1em;
+	text-decoration:none;
+}
+
+a:hover:not(.active) {
+	background-color:#ffaa00;
+}
+
+.active {
+	background-color:#ba7918;
+}
+
+.textDarker {
+	color:#893812;
+}
+
+.fa-house{
+	color:#6a6a6a;
+	margin-right:0.2em;
+}
+
+.fa-icons{
+	color:#6a6a6a;
+	margin-right:0.2em;
+}
+
+.fa-folder-open {
+	color:#6a6a6a;
+	margin-right:0.2em;
+}
+
+.fa-icons2{
+	font-size:1.5em;
+	padding-left:0.5em;
+}
+
+.fa-gamepad{
+	color:#6a6a6a;
+	margin-right:0.2em;
+}
+
+.fa-address-book{
+	color:#6a6a6a;
+	margin-right:0.2em;
+	padding-top:0.35em;
+}
