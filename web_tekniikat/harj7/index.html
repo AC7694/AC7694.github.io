@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/lightbox.css" rel="stylesheet">
+<link href="css/layout.css" rel="stylesheet">
+<title>Harjoitus 7 - Multimedia</title>
+</head>
+<body>
+	<article>
+		<h1>Tehtävä 1</h1>
+		<section id="links">
+			<a href="images/image-1.jpg" data-lightbox="Album1" data-title="Kaarlen silta">Kaarlen silta</a> 
+			<a href="images/image-2.jpg" data-lightbox="Album1" data-title="Kaarlen silta - portti">Kaarlen silta - portti</a> 
+			<a href="images/image-3.jpg" data-lightbox="Album1" data-title="Aukion kello">Aukion kello</a> 
+			<a href="images/image-4.jpg" data-lightbox="Album1" data-title="Aukion kello - lähi">Aukion kello - lähi</a> 
+			<a href="images/image-5.jpg" data-lightbox="Album1" data-title="Aukiolla possua">Aukiolla possua</a> 
+			<a href="images/image-6.jpg" data-lightbox="Album1" data-title="Marionetit">Marionetit</a>
+		</section>
+		<br>
+		<section>
+			<a href="images/image-1.jpg" data-lightbox="Album1" data-title="Kaarlen silta"><img class="thumbnail" src="images/image-1.jpg"></a> 
+			<a href="images/image-2.jpg" data-lightbox="Album1" data-title="Kaarlen silta - portti"><img class="thumbnail" src="images/image-2.jpg"></a> 
+			<a href="images/image-3.jpg" data-lightbox="Album1" data-title="Aukion kello"><img class="thumbnail" src="images/image-3.jpg"></a> 
+			<a href="images/image-4.jpg" data-lightbox="Album1" data-title="Aukion kello - lähi"><img class="thumbnail" src="images/image-4.jpg"></a> 
+			<a href="images/image-5.jpg" data-lightbox="Album1" data-title="Aukiolla possua"><img class="thumbnail" src="images/image-5.jpg"></a> 
+			<a href="images/image-6.jpg" data-lightbox="Album1" data-title="Marionetit"><img class="thumbnail" src="images/image-6.jpg"></a>
+		</section>
+	</article>
+	<br>
+	<article>
+		<h1>Tehtävä 2</h1>
+		<section>
+			<video width="640" height="360" poster="images/video01.png" controls>
+				<source src="https://student.labranet.jamk.fi/~nikar/valintaopintojakso/harj7/assets/helicopter.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
+		</section>
+	</article>
+	<br>
+	<article>
+		<h1>Tehtävä 4</h1>
+		<section>
+			<audio controls>
+				<source src="https://student.labranet.jamk.fi/~nikar/valintaopintojakso/harj7/assets/kalimba.mp3" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
+		</section>
+	</article>
+	<br>
+	<article>
+	<h1>Tehtävä 3 ja tehtävä 5 pyörii taustalla</h1>
+		<section>
+			<video id="background" autoplay loop muted>
+				<source src="https://student.labranet.jamk.fi/~nikar/valintaopintojakso/harj7/assets/helicopter.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</section>
+	<br>
+		<section>
+			<!-- Ei toimi chromessa eikä edgessä. Kuten sanoitkin tehtävän annossa että "autoplay" attribuuttia chromium ei enää tue. -->
+			<audio autoplay loop>
+				<source src="https://student.labranet.jamk.fi/~nikar/valintaopintojakso/harj7/assets/kalimba.mp3" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
+		</section>
+	</article>
+<script src="js/lightbox-plus-jquery.js"> </script>
+</body>
+</html> 
