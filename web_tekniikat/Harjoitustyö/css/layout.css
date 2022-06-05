@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+body {
+	margin:0;
+	font-size:100%;
+	font-family:Roboto, sans-serif;
+	background-color:#1D3557;
+}
+
+article {
+	background-color:#EBEFDA;
+	margin:1em 2.5em 1em 2.5em;
+	overflow:hidden;
+}
+
+div {
+	padding:0.5em;
+	min-width:25em;
+}
+
+.infoSec {
+	float:left;
+}
+
+.mainText{
+	font-size:120%;
+	clear:left;
+}
+
+.infoList {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	font-size:120%;
+}
+
+nav {
+	margin-left:0.4em;
+	float:left;
+}
+
+.mainLinks {
+	font-size:2em;
+	margin:0 0.1em;
+	
+}
+
+header {
+	background-color:#457B9D;
+	padding:1em 0;
+	font-family:Ubuntu, sans-serif;
+}
+
+#h1Name {
+	text-align:center;
+	margin:0;
+	font-size:400%;
+}
+
+.indexContent {
+	width:50%;
+	margin:2em;
+	padding:0.625em 0.9375em;
+	float:right;
+}
+
+img.naamakuva {
+	margin:0.7em 0.7em;
+	min-width:30%;
+	height:auto;
+	float:left;
+}
+
+.portSec {
+	width:100%;
+	margin:0;
+	display:inline-block;
+}
+
+.portGalleria {
+	width:50%;
+	margin:1em 1em 1em 1em;
+	float:right;
+	display:inline-block;
+}
+
+.portDescription {
+	width:30%;
+	margin:1em 1em 5em 1em;
+	float:left;
+	display:inline-block;
+	white-space:normal;
+	clear:left;
+}
+
+.thumbnail {
+	width:9.44em;
+	height:auto;
+}
+
+.nomarginh2 {
+	margin:0;
+}
+
+.harrasteKuva {
+	width:30%;
+	height:auto;
+	margin-left:0.5em;
+	float:left;
+}
+
+.harrasSec {
+	width:100%;
+	margin:0;
+	display:inline-block;
+}
+
+.harrasDesc {
+	width:30%;
+	margin:1em 1em 5em 1em;
+	float:left;
+	display:inline-block;
+	white-space:normal;
+	clear:left;
+}
+
+.harrasImg {
+	width:50%;
+	margin:1em 1em 1em 1em;
+	float:right;
+	display:inline-block;
+}
+
+.footer {
+	background-color:#457B9D;
+	height:2em;
+	text-align:center;
+	clear:both;
+}
+
+.paraFooter {
+	padding-top:0.3em;
+	font-size:110%;
+}
+
+a:link {
+	color:#1D3557;
+}
+a:visited {
+	color:#E63946;
+}
+a:hover {
+	color:#FF7700;
+}
+a:active {
+	color:#C6C6C6;
+}
